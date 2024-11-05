@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hodlinfo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>HODLINFO</h1>
+      <button>INR</button>
+      <button>BTC</button>
+      <button>BUY BTC</button>
+      <span>Best Price to Trade</span>
+      <h2 id="best-price">₹0</h2>
+    </header>
+    <div class="data-table">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Platform</th>
+            <th>Last Traded Price</th>
+            <th>Buy / Sell Price</th>
+            <th>Difference</th>
+            <th>Savings</th>
+          </tr>
+        </thead>
+        <tbody id="ticker-data">
+          <!-- Data will be inserted here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
